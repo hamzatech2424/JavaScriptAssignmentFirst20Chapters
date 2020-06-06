@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chapter 14-16</title>
+
+<script>
+	
+
+
+var arr1 = ["hamza","basit","daud"];
+
+
+var arr2 = [123,345,567];
+
+
+var arr3 = [111 , 100, 101];
+
+
+var arr4 = [123,"hamza",345];
+
+
+var arr5 = [" SSC" , " HSC" , " BCS" , " BS" , " BCOM" , " MS" , " M.Phil" , " PhD"];
+
+document.write("Qualifications: " + "<br/>"+ "1)" + arr5[0] + "<br/>" + "2)" + arr5[1] + "<br/>" + "3)" + arr5[2] + "<br/>" + "4)" + arr5[3] + "<br/>" + "5)" + arr5[4] + "<br/>" + "6)" + arr5[5] + "<br/>" + "7)" + arr5[6] + "<br/>" + "8)" + arr5[7] + "<br/>" );
+
+
+
+
+
+
+
+var arr6 = ["Michael" , "John" , "Tony"];
+
+var arr7 = [320, 230, 480];
+
+ var mper = (arr7[0]/500) * 100; 
+
+var jper = (arr7[1]/500) * 100; 
+
+var tper = (arr7[2]/500) * 100; 
+
+
+document.write("<br/>" + "<br/>" + "Score of " + arr6[0] + " is " + arr7[0] + ".Percentage: " + mper + "%" + "<br/>" + "Score of " + arr6[1] + " is " + arr7[1] + ".Percentage: " + jper + "%" + "<br/>" +
+	"Score of " + arr6[2] + " is " + arr7[2] + ".Percentage: " + tper + "%")
+
+
+
+
+var colors = ["red","green","aqua","orange","blue"];
+
+
+document.write("<br/>" + "<br/>" + colors + "<br/>" );
+
+colors.shift();
+ document.write(colors);
+
+colors.unshift("Indigo");
+document.write("<br/>" + colors);
+
+colors.push("purple");
+document.write("<br/>" + colors);
+
+colors.unshift("Grey", "brown");
+document.write("<br/>" + colors);
+
+colors.shift();
+ document.write("<br/>" + colors);
+
+colors.pop();
+ document.write("<br/>" + colors);
+
+colors.splice(2,1, "cyan");
+ document.write("<br/>" + colors);
+
+ var newcolors = colors.slice(2,5);
+ document.write("<br/>" + newcolors + "<br/>" + "<br/>");
+
+
+
+
+var marks = [ 320, 230 , 480 , 120];
+
+
+document.write("<br/>" + "Scores of Students: " + marks + "<br/>");
+
+
+document.write("Ordered score of students: ");
+
+for (var i = 4; i >= 0; i--) {
+	document.write(marks[i] + ","  );
+}
+
+
+var cities = ["Karachi", "Lahore", "Islamabad", "Quetta" , "Peshawar"];
+
+document.write("<br/> " + "<br/> " + "Cities List:" + "<br/>" + cities);
+
+
+var newcities = cities.slice(2,4);
+
+document.write("<br/> " + "<br/> " + "Selected Cities List:" + "<br/>" + newcities);
+
+
+
+
+// var cat =["This" , "is" , "my" , "cat"];
+// var str = [];
+
+// // document.write("<br/>" + "<br/>" + cat);
+
+// for (var i =0; i < 4; i++) {
+//          cat[i] = str[i];
+//          document.write( cat);
+// }
+
+
+
+// document.write("<br/>"+ str)
+
+
+document.write("<br/>" + "<br/>")
+
+
+
+
+
+
+
+var com = [];
+
+
+for (var i = 0; i < 4; i++) {
+	com[i] = prompt("Enter Computer device names");
+}
+
+document.write("<br/>" + "<br/>" + "Devices:"+ "<br/>"  + com);
+
+
+for (var j = 0; j < 4; j++) {
+	document.write("<br/>" + "<br/>" + "Out: " + "<br/>" + com[j]);
+}
+
+
+
+
+
+
+document.write("<br/>" + "<br/>")
+
+
+
+
+
+
+
+
+var company = ["Apple" , "Samsung" , "Motorola", "Nokia" , "Sony" , "Haier"];
+
+
+ for (var i = 0; i < 4; i++) {
+ 	document.write("<br/>" + company[i] );
+ }
+
+
+
+
+
+
+</script>
+
+
+</head>
+<body>
+
+</body>
+</html>

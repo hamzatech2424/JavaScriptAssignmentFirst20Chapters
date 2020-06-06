@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pc</title>
+	<script>
+
+
+
+
+
+var sb1 = prompt("Enter first Subject name");
+
+var sb2 = prompt("Enter second Subject name");
+
+var sb3 = prompt("Enter third Subject name");
+
+var tmarks = 100;
+
+var fm1 = prompt("Enter first Subject Marks");
+
+var sm2 = prompt("Enter second Subject Marks");
+
+var tm3 = prompt("Enter third Subject Marks");
+
+var p1 = fm1/tmarks *100;
+
+var p2 = sm2/tmarks *100;
+
+var p3 = tm3/tmarks *100;
+
+var gtmarks = tmarks*3;
+
+var obmarks = (fm1 + sm2 + tm3) ;
+
+var tpercen = (p1+p2+p3) / gtmarks * 100 ;
+
+
+
+	
+
+document.write("<table/>"+ "<tr/>" + "<td/>" + "Subject  " + "</td>" +  "<td/>" + "  Total Marks" + "</td>" +   "<td/>" + "  Obtained Marks" + "</td>" + "<td/>" + "  Percentage" + "</td>"  + "</tr>" 
+
+
+ + "<tr/>" + "<td/>" + sb1 + "</td>" +  "<td/>" + tmarks + "</td>" +   "<td/>" + fm1 + "</td>" + "<td/>" + p1 + " % " + "</td>"  + "</tr>"
+
+
++ "<tr/>" + "<td/>" + sb2 + "</td>" +  "<td/>" + tmarks + "</td>" +   "<td/>" + sm2 + "</td>" + "<td/>" + p2 + " % " + "</td>"  + "</tr>"
+
+
++ "<tr/>" + "<td/>" + sb3 + "</td>" +  "<td/>" + tmarks + "</td>" +   "<td/>" + tm3 + "</td>" + "<td/>" + p3 + " % " + "</td>"  + "</tr>"
+
+
++ "<tr/>" + "<td/>" + "" + "</td>" +  "<td/>" + gtmarks + "</td>" +   "<td/>" + obmarks + "</td>" + "<td/>" + tpercen + " % " + "</td>"  + "</tr>"+ "</table>" );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

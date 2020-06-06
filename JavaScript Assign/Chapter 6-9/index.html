@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chapter 6-9</title>
+	<script>
+		
+
+var a = 10;
+
+
+
+document.write("<b/>" + "Result:" +  "</b>" + "<br/>");
+
+document.write("The value of a is: " + a + "<br/>" );
+
+
+document.write("----------------------------------------------" + "<br/>" + "<br/>" );
+
+document.write("The value of ++a is: " + ++a + "<br/>" );
+
+document.write("Now the value of a is: " + a + "<br/>" + "<br/>");
+
+document.write("The value of a++ is: " + a++ + "<br/>" );
+
+document.write("Now the value of a is: " + a + "<br/>" + "<br/>");
+
+document.write("The value of --a is: " + --a + "<br/>" );
+
+document.write("Now the value of a is: " + a + "<br/>" + "<br/>");
+
+document.write("The value of a-- is: " + a-- + "<br/>" );
+
+document.write("Now the value of a is: " + a + "<br/>" + "<br/>"  + "<br/>");
+
+
+
+
+var a = 2, b = 1;
+
+var result = --a - --b + ++b + b-- ;
+
+
+// --a 
+//   1
+
+// --a - --b 
+//   1  -  0
+
+// --a - --b + ++b
+//   1 -   0 +   1 
+
+// --a - --b + ++b + b--
+//   1 -   0 +   1 + 1
+
+
+document.write("a is: " + a + "<br/>");
+
+document.write("b is: " + b + "<br/>");
+
+document.write("Result is: " + result + "<br/>" + "<br/>");
+
+
+
+
+var name = prompt("Enter Your name");
+
+document.write("Hello " + "<b/>" + name + "</b>" + "<br/>");
+
+
+
+
+
+
+
+var no = prompt("Enter table number which you want ", 5 );
+
+
+
+
+document.write( "<br/>" + "<br/>" + "Table of " + no + "<br/>");
+
+
+for (var i =1 ; i <= 10; i++) {
+	document.write(no + "x" + i + "=" + no*i + "<br/>");
+}
+
+
+
+
+var sb1 = prompt("Enter first Subject name");
+
+var sb2 = prompt("Enter second Subject name");
+
+var sb3 = prompt("Enter third Subject name");
+
+var tmarks = 100;
+
+var fm1 = prompt("Enter first Subject Marks");
+
+var sm2 = prompt("Enter second Subject Marks");
+
+var tm3 = prompt("Enter third Subject Marks");
+
+var p1 = fm1/tmarks *100;
+
+var p2 = sm2/tmarks *100;
+
+var p3 = tm3/tmarks *100;
+
+var gtmarks = tmarks*3;
+
+var obmarks = (fm1 + sm2 + tm3) ;
+
+var tpercen = (p1+p2+p3) / gtmarks * 100 ;
+
+
+
+	
+
+document.write("<br/>" + "<br/>" +"<table/>"+ "<tr/>" + "<td/>" + "Subject  " + "</td>" +  "<td/>" + "  Total Marks" + "</td>" +   "<td/>" + "  Obtained Marks" + "</td>" + "<td/>" + "  Percentage" + "</td>"  + "</tr>" 
+
+
+ + "<tr/>" + "<td/>" + sb1 + "</td>" +  "<td/>" + tmarks + "</td>" +   "<td/>" + fm1 + "</td>" + "<td/>" + p1 + " % " + "</td>"  + "</tr>"
+
+
++ "<tr/>" + "<td/>" + sb2 + "</td>" +  "<td/>" + tmarks + "</td>" +   "<td/>" + sm2 + "</td>" + "<td/>" + p2 + " % " + "</td>"  + "</tr>"
+
+
++ "<tr/>" + "<td/>" + sb3 + "</td>" +  "<td/>" + tmarks + "</td>" +   "<td/>" + tm3 + "</td>" + "<td/>" + p3 + " % " + "</td>"  + "</tr>"
+
+
++ "<tr/>" + "<td/>" + "" + "</td>" +  "<td/>" + gtmarks + "</td>" +   "<td/>" + obmarks + "</td>" + "<td/>" + tpercen + " % " + "</td>"  + "</tr>"+ "</table>" );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
